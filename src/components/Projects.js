@@ -3,6 +3,10 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import instagramClone from "../assets/img/instagramClone.PNG"
+import netflixClone from "../assets/img/netflixClone.PNG"
+import photoGalery from "../assets/img/photoGalery.PNG"
+import reactTodo from "../assets/img/reactToDo.PNG"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,39 +15,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Instagram Clone",
+      description: "Development",
+      imgUrl: instagramClone,
+      Url: "https://instagram-clone-d1422.firebaseapp.com/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Netflix Clone",
+      description: "Development",
+      imgUrl: netflixClone,
+      Url: "https://netflix-clone-5a379.firebaseapp.com/"
     },
     {
-      title: "Business Startup",
+      title: "Photo Galery",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: photoGalery,
+      Url: "https://clone-instagram-6f601.firebaseapp.com/"
     },
     {
-      title: "Business Startup",
+      title: "React ToDo",
       description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+      imgUrl: reactTodo,
+      Url: "https://fir-todo-c24d8.web.app/"
+    }
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
