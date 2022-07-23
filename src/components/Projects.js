@@ -1,12 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import instagramClone from "../assets/img/instagramClone.PNG"
 import netflixClone from "../assets/img/netflixClone.PNG"
 import photoGalery from "../assets/img/photoGalery.PNG"
 import reactTodo from "../assets/img/reactToDo.PNG"
+import pokedex from "../assets/img/Pokedex.PNG"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -37,6 +35,12 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: reactTodo,
       Url: "https://fir-todo-c24d8.web.app/"
+    },
+    {
+      title: "Pokedex",
+      description: "Design & Development",
+      imgUrl: pokedex,
+      Url: "https://simple-pokedex-new.netlify.app/"
     }
   ];
 
