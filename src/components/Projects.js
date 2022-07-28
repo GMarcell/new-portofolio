@@ -5,6 +5,7 @@ import netflixClone from "../assets/img/netflixClone.PNG"
 import photoGalery from "../assets/img/photoGalery.PNG"
 import reactTodo from "../assets/img/reactToDo.PNG"
 import pokedex from "../assets/img/Pokedex.PNG"
+import bumiTimur from "../assets/img/bumiTimur.PNG"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,33 +15,39 @@ export const Projects = () => {
   const projects = [
     {
       title: "Instagram Clone",
-      description: "Development",
+      description: "ReactJS & Firebase",
       imgUrl: instagramClone,
       Url: "https://instagram-clone-d1422.firebaseapp.com/"
     },
     {
       title: "Netflix Clone",
-      description: "Development",
+      description: "ReactJS & Firebase",
       imgUrl: netflixClone,
       Url: "https://netflix-clone-5a379.firebaseapp.com/"
     },
     {
       title: "Photo Galery",
-      description: "Design & Development",
+      description: "ReactJS & Firebase",
       imgUrl: photoGalery,
       Url: "https://clone-instagram-6f601.firebaseapp.com/"
     },
     {
       title: "React ToDo",
-      description: "Design & Development",
+      description: "ReactJS & Firebase",
       imgUrl: reactTodo,
       Url: "https://fir-todo-c24d8.web.app/"
     },
     {
       title: "Pokedex",
-      description: "Design & Development",
+      description: "ReactJS & PokeAPI",
       imgUrl: pokedex,
       Url: "https://simple-pokedex-new.netlify.app/"
+    },
+    {
+      title: "BumiTimur.com",
+      description: "ReactJS",
+      imgUrl: bumiTimur,
+      Url: "https://bumitimur.com/"
     }
   ];
 
@@ -53,11 +60,11 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>These are some of the projects I have developed</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">ReactJS</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Tab 2</Nav.Link>
@@ -81,7 +88,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
