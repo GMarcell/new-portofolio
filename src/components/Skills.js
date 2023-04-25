@@ -1,11 +1,5 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
+import { ListItem, ListItemText, Typography, Box, Grid } from "@mui/material";
 
 export const Skills = () => {
   const responsive = {
@@ -36,21 +30,76 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                         {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p> */}
-                        <br/><br/><br/>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Web Designer</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Software Development</h5>
-                            </div>
-                        </Carousel>
+                        <br/>
+                        <Typography variant="h4">Programming Language</Typography>
+                        <Grid container spacing={1}>
+                          <Grid item xs={12}>
+                            <Grid container spacing={1}>
+                              <Grid item xs={12} sm={4}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">Javascript</Typography>
+                                </Box>
+                              </Grid>
+                              <Grid item xs={12} sm={4}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">Typescript</Typography>
+                                </Box>
+                              </Grid>
+                              <Grid item xs={12} sm={4}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">HTML</Typography>
+                                </Box>
+                              </Grid>
+                            </Grid>
+                          </Grid>
+                          <Grid item xs={12} sx={{marginLeft: '20px', marginRight: '20px'}}>
+                            <Grid container spacing={1}>
+                              <Grid item xs={12} sm={4}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">CSS</Typography>
+                                </Box>
+                              </Grid>
+                              <Grid item xs={12} sm={4}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">Python</Typography>
+                                </Box>
+                              </Grid>
+                              <Grid item xs={12} sm={4}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">C++</Typography>
+                                </Box>
+                              </Grid>
+                            </Grid>
+                          </Grid>
+                        </Grid>
+                        <br/>
+                        <Typography variant="h4">Framework</Typography>
+                        <Grid container spacing={1}>
+                          <Grid item xs={12}>
+                            <Grid container spacing={1}>
+                              <Grid item xs={12} sm={3}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">ReactJS</Typography>
+                                </Box>
+                              </Grid>
+                              <Grid item xs={12} sm={3}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">NextJS</Typography>
+                                </Box>
+                              </Grid>
+                              <Grid item xs={12} sm={3}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">NuxtJS</Typography>
+                                </Box>
+                              </Grid>
+                              <Grid item xs={12} sm={3}>
+                                <Box display='flex' justifyContent='center' sx={{background: 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)'}}>
+                                  <Typography variant="h6">Bootstrap</Typography>
+                                </Box>
+                              </Grid>
+                            </Grid>
+                          </Grid>
+                        </Grid>
                     </div>
                 </div>
             </div>
