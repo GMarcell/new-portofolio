@@ -234,6 +234,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
+  /* background-image: url('./assets/img/starry-sky.webp'); */
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -615,4 +616,303 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/* Solar System */
+.skill-test {
+  /* padding: 0 0 50px 0; */
+  padding: 50px;
+  display: flex !important;
+  min-height: 100vh;
+  background-image: url('./assets/img/starry-sky.webp');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-solar-system-framework{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  width: 50%;
+}
+.container-solar-system-code-language{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  width: 50%;
+}
+
+.sun {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #ffF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sun-code {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #ffF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.axis1{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  /* border: 2px solid #fff; */
+  /* border-right: 2px solid #fff; */
+  border-radius: 50%;
+  animation: anime-1 5s linear infinite;
+}
+
+.axis1 .earth {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis1 .earth-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis1 .earth-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis1 .earth-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis2{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  /* border: 2px solid #fff; */
+  /* border-right: 2px solid #fff; */
+  border-radius: 50%;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis2 .earth {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-1 5s linear infinite;
+}
+
+.axis2 .earth-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-1 5s linear infinite;
+}
+
+.axis2 .earth-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-1 5s linear infinite;
+}
+
+.axis2 .earth-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-1 5s linear infinite;
+}
+
+@keyframes anime-1 {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+@keyframes anime-2 {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(-360deg);}
+}
+
+.axis1-code{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  /* border: 2px solid #fff; */
+  /* border-right: 2px solid #fff; */
+  border-radius: 50%;
+  animation: anime-1 5s linear infinite;
+}
+
+.axis1-code .earth {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis1-code .earth-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis1-code .earth-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis1-code .earth-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis2-code{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  /* border: 2px solid #fff; */
+  /* border-right: 2px solid #fff; */
+  border-radius: 50%;
+  animation: anime-2 5s linear infinite;
+}
+
+.axis2-code .earth {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-1 5s linear infinite;
+}
+
+.axis2-code .earth-1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anime-1 5s linear infinite;
+}
+
+
+.skill-test{
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .skill {
+    display: none;
+  }
+
+  .skill-test{
+    display: block;
+  }
 }
