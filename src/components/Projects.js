@@ -5,7 +5,7 @@ import netflixClone from "../assets/img/netflixClone.PNG"
 import photoGalery from "../assets/img/photoGalery.PNG"
 import reactTodo from "../assets/img/reactToDo.PNG"
 import pokedex from "../assets/img/Pokedex.PNG"
-import bumiTimur from "../assets/img/bumiTimur.PNG"
+import vueTodoApp from "../assets/img/vue-todo-app.png"
 import frvrhngry from "../assets/img/frvrhngry.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import nuxtmovieapp from "../assets/img/nuxt-movie-app.jpg"
@@ -46,10 +46,10 @@ export const Projects = () => {
       Url: "https://simple-pokedex-new.netlify.app/"
     },
     {
-      title: "BumiTimur.com",
-      description: "ReactJS",
-      imgUrl: bumiTimur,
-      Url: "https://bumitimur.com/"
+      title: "Todo App",
+      description: "VueJS",
+      imgUrl: vueTodoApp,
+      Url: "https://benevolent-sawine-8d2d61.netlify.app"
     },
     {
       title: "frvrhngry",
